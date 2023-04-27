@@ -28,8 +28,10 @@ curl http://localhost:8080/average?currencyCode=usd&date=2023-04-25
 ```
 curl http://localhost:8080/minMaxAverage?currencyCode=eur&lastQuotations=10
 ```
-#### To test third endpoint you should run this command (it should return 'Major difference: 0.1070000000000002')::
+#### To test third endpoint you should run this command (it should return 'Major difference: 0.1070000000000002'):
 ```
 curl http://localhost:8080/majorDifference?currencyCode=gbp&lastQuotations=25
 ```
 ## Swagger UI
+#### It also has configured swagger ui available on this link: 
+- http://localhost:8080/swagger-ui/index.html#/
